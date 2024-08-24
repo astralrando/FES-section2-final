@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 
+NAVIGATION BAR
+*/
+.navbar{
+    margin-top: 24px;
+    height: 60px;
+}
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo:hover{
+    color: rgb(100, 21, 255);
+    cursor: pointer;
+}
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoa{
+    width: 40px;
+}
+.links__navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.about__link:hover{
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pricing__link:hover{
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact__link:hover{
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login__link:hover{
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signup__link:hover{
+    color: rgb(100, 21, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signup__link{
+    padding: 8px 16px;
+    border: 1px solid rgb(100, 21, 255);
+    background-color: rgb(100, 21, 255);
+    color: white;
+    border-radius: 16px;
+}
+.login{
+    margin-left: 30px;
+}
+/* 
+TEMPLATES
+*/
+.row__templates{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+.templates{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 30px;
+}
+.temp__span{
+    margin-bottom: 50px;
+}
+.templates__col1{
+    color: rgb(100, 21, 255);
+}
+.templates__img{
+    width: 60%;
+}
+.temp__img{
+    width: 100%;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 20px;
+    width: 80%;
+    font-size: 8px;
+    padding: 2px;
+}
+.email__box{
+    border: none;
+    border-radius: 20px;
+    width: 78%;
+    height: 100%;
+}
+.getstarted{
+    border: 1px solid rgb(100, 21, 255);
+    background-color: rgb(100, 21, 255);
+    color: white;
+    padding: 8px;
+    border-radius: 16px;
+}
+.company__list{
+    width: 90%;
+}
+.trusted__customers{
+    color: lightgray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
