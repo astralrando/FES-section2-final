@@ -107,6 +107,9 @@ TEMPLATES
 .temp__img{
     width: 100%;
 }
+.temp__text{
+    font-size: 16px;
+}
 .email{
     display: flex;
     align-items: center;
