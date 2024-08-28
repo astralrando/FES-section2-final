@@ -124,11 +124,15 @@ TEMPLATES
     font-size: 8px;
     padding: 2px;
 }
+.email:hover{
+    border-color: rgb(100, 21, 255);
+}
 .email__box{
     border: none;
     border-radius: 20px;
     width: 78%;
     height: 100%;
+    padding-left: 10px;
 }
 .getstarted{
     border: 1px solid rgb(100, 21, 255);
@@ -136,6 +140,9 @@ TEMPLATES
     color: white;
     padding: 8px;
     border-radius: 16px;
+}
+.getstarted:hover{
+    cursor: pointer;
 }
 .company__list{
     width: 90%;
@@ -158,6 +165,7 @@ FEATURES
     margin-top: 150px;
     border: 1px solid black;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .features{
     color: rgb(100, 21, 255);
@@ -168,4 +176,11 @@ FEATURES
     margin-top: 64px;
     font-size: 64px;
     margin-bottom: 64px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    color: rgb(124, 139, 161);
 }
