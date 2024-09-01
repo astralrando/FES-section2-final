@@ -163,7 +163,6 @@ FEATURES
     align-items: center;
     margin: 0 auto;
     margin-top: 150px;
-    border: 1px solid black;
     flex-direction: column;
     margin-bottom: 50px;
 }
@@ -183,4 +182,38 @@ FEATURES
     text-align: center;
     width: 70%;
     color: rgb(124, 139, 161);
+    margin-bottom: 24px;
+}
+.features__items{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+.item__img{
+    padding: 10px;
+    border: 1px solid rgb(124, 139, 161);
+    width: 50px;
+    display: flex;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+.itema{
+    display: flex;
+    width: 33%;
+}
+.item__header{
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+.item__description{
+    color: rgb(124, 139, 161);
+}
+.itemb{
+    display: flex;
+    width: 33%;
+}
+.itemc{
+    display: flex;
+    width: 33%;
 }
