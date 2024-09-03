@@ -180,7 +180,7 @@ FEATURES
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 70%;
+    width: 60%;
     color: rgb(124, 139, 161);
     margin-bottom: 24px;
 }
@@ -214,6 +214,24 @@ FEATURES
     width: 33%;
 }
 .itemc{
+    display: flex;
+    width: 33%;
+}
+.features__items__second{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.itemd{
+    display: flex;
+    width: 33%;
+}
+.iteme{
+    display: flex;
+    width: 33%;
+}
+.itemf{
     display: flex;
     width: 33%;
 }
