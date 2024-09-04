@@ -235,3 +235,62 @@ FEATURES
     display: flex;
     width: 33%;
 }
+.quality__container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.quality__text__container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.quality__image{
+    width: 100%;
+    border: 1px solid rgb(124, 139, 161);
+    border-radius: 5px;
+}
+.quality__img__container{
+    width: 50%;
+}
+.quality__header{
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+}
+.quality__subheader{
+    font-size: 50px;
+    font-weight: bold;
+}
+.quality__subtext{
+    margin-top: 24px;
+    font-size: large;
+    color: rgb(124, 139, 161);
+}
+.learn__more{
+    margin-top: 24px;
+    color: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 21, 255);
+    height: 50px;
+    align-items: center;
+    border-radius: 25px;
+}
+.learn__more:hover{
+    cursor: pointer;
+    background-color: rgba(100, 21, 255, 0.9);
+}
+/* 
+STEPS TO GET STARTED
+*/
+.steps__getstarted{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
