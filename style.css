@@ -65,9 +65,8 @@ NAVIGATION BAR
     cursor: pointer;
 }
 .signup__link:hover{
-    color: rgb(100, 21, 255);
-    text-decoration: underline;
     cursor: pointer;
+    background-color: purple;
 }
 .signup__link{
     padding: 8px 16px;
@@ -116,7 +115,6 @@ TEMPLATES
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
     margin-top: 30px;
     border: 1px solid rgb(226, 232, 240);
     border-radius: 20px;
@@ -143,6 +141,7 @@ TEMPLATES
 }
 .getstarted:hover{
     cursor: pointer;
+    background-color: purple;
 }
 .company__list{
     width: 90%;
@@ -288,9 +287,57 @@ FEATURES
 STEPS TO GET STARTED
 */
 .steps__getstarted{
-    border: 1px solid black;
     width: 100%;
     max-width: 1200px;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+.steps__img__container{
+    width: 700px;
+}
+.get__started__img{
+    width: 700px;
+    margin-top: 50px;
+}
+.steps{
+    font-weight: bold;
+    color: rgb(100, 21, 255);
+    margin-bottom: 24px;
+}
+.easy{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.numbering{
+    display: flex;
+    color: rgb(124, 139, 161);
+    font-size: 30px;
+    margin-right: 24px;
+}
+.step__1{
+    display: flex;
+    flex-direction: column;
+}
+.step__1__container{
+    display: flex;
+}
+.step__2__container{
+    display: flex;
+    margin-top: 24px;
+}
+.step__3__container{
+    display: flex;
+    margin-top: 24px;
+}
+
+.register{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.create__account{
+    width: 80%;
+    color: rgb(124, 139, 161);
 }
