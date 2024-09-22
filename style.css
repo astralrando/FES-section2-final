@@ -291,7 +291,7 @@ STEPS TO GET STARTED
     max-width: 1200px;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     margin-top: 200px;
 }
 .steps__img__container{
@@ -340,4 +340,31 @@ STEPS TO GET STARTED
 .create__account{
     width: 80%;
     color: rgb(124, 139, 161);
+}
+.values__nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    margin-bottom: 200px;
+}
+.values__container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.values__header{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.values__subheader{
+    font-weight: bold;
+    font-size: 40px;
+}
+.values__text{
+    color: rgb(124, 139, 161);
+    margin-top: 24px;
+    font-size: 16px;
 }
