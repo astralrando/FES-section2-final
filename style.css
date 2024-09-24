@@ -346,6 +346,7 @@ STEPS TO GET STARTED
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
+    display: flex;
 
     margin-bottom: 200px;
 }
@@ -367,4 +368,10 @@ STEPS TO GET STARTED
     color: rgb(124, 139, 161);
     margin-top: 24px;
     font-size: 16px;
+}
+.values__img__container{
+    width: 50%;
+}
+.values__img{
+    width: 100%;
 }
