@@ -345,19 +345,16 @@ STEPS TO GET STARTED
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
     display: flex;
 
     margin-bottom: 200px;
 }
 .values__container{
-    display: flex;
-    flex-direction: column;
     width: 50%;
 }
 .values__header{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 24px;
 }
 .values__subheader{
@@ -368,10 +365,53 @@ STEPS TO GET STARTED
     color: rgb(124, 139, 161);
     margin-top: 24px;
     font-size: 16px;
+    width: 85%;
 }
 .values__img__container{
     width: 50%;
 }
 .values__img{
     width: 100%;
+}
+.principles__container{
+    width: 50%;
+    margin-top: 24px;
+    display: flex;
+}
+.header{
+    display: flex;
+}
+
+.affordable__logo{
+    color: darkgreen;
+    background-color: rgba(0,255,0,0.5);
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+}
+.affordable__header{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    font-size: 24px;
+    color: rgb(0,0,100);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.affordable__subtext{
+    color: rgb(124, 139, 161);
+    width: 80%;
+}
+.professionalism__logo{
+    color: darkred;
+    background-color: rgba(255,0,0,0.5);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
