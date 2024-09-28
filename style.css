@@ -380,8 +380,8 @@ STEPS TO GET STARTED
 }
 .header{
     display: flex;
+    margin-bottom: 24px;
 }
-
 .affordable__logo{
     color: darkgreen;
     background-color: rgba(0,255,0,0.5);
@@ -399,11 +399,17 @@ STEPS TO GET STARTED
     font-size: 24px;
     color: rgb(0,0,100);
     font-weight: 600;
-    margin-bottom: 16px;
 }
 .affordable__subtext{
     color: rgb(124, 139, 161);
     width: 80%;
+}
+.professionalism__nav{
+    margin-left: 42px;
+}
+.professionalism__container{
+    display: flex;
+    margin-bottom: 24px;
 }
 .professionalism__logo{
     color: darkred;
@@ -414,4 +420,15 @@ STEPS TO GET STARTED
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 16px;
+}
+.professionalism__subheader{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0,0,100);
+}
+.professionalism__subtext{
+    color: rgb(124, 139, 161);
 }
