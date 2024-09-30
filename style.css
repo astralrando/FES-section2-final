@@ -432,3 +432,34 @@ STEPS TO GET STARTED
 .professionalism__subtext{
     color: rgb(124, 139, 161);
 }
+/* 
+PRICING
+*/
+.pricing__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.pricing__subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.plans{
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(0,0,100);
+}
+.plans__subtext{
+    color: rgb(124, 139, 161);
+    width: 50%;
+    text-align: center;
+    margin-top: 24px;
+}
