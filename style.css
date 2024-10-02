@@ -463,3 +463,10 @@ PRICING
     text-align: center;
     margin-top: 24px;
 }
+.pricing__item__getpricing{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
