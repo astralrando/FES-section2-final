@@ -441,9 +441,8 @@ PRICING
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    border: 1px solid black;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 42px;
 }
 .pricing__subtitle{
     display: flex;
@@ -464,12 +463,12 @@ PRICING
     margin-top: 24px;
 }
 .pricing__item__getpricing{
-    border: 1px solid black;
     display: flex;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 150px;
+    justify-content: space-between;
 }
 .personal__container{
     display: flex;
@@ -477,12 +476,139 @@ PRICING
     align-items: center;
     border: 1px solid rgb(124, 139, 161);
     border-radius: 16px;
+    width: 30%;
 }
 .personal{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .personal__pricing{
     font-size: 36px;
     font-weight: 600;
+    margin-bottom: 24px;
+}
+.per__enter__monthly{
+    color: rgb(124, 139, 161);
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+.break{
+    width: 100%;
+}
+.individual__plan{
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.templates__personal{
+    color: rgb(124, 139, 161);
+    margin-top: 24px;
+}
+.templates__personal__final{
+    color: rgb(124, 139, 161);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.buynow__personal{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);;
+    width: 50%;
+    height: 50px;
+    border-radius: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.buynow__personal:hover{
+    cursor: pointer;
+}
+.business__container{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(100, 21, 255);
+}
+.business__title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.business__pricing{
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.business__monthly{
+    color: white;
+    margin-bottom: 36px;
+    font-weight: 600;
+}
+.business__plan{
+    color: white;
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.business__templates{
+    color: white;
+    margin-top: 24px;
+}
+.business__templates__final{
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.buynow__business{
+    color: rgb(100, 21, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    border-radius: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.buynow__business:hover{
+    cursor: pointer;
+}
+.enterprise__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.buynow__enterprise{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);;
+    width: 50%;
+    height: 50px;
+    border-radius: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.buynow__enterprise:hover{
+    cursor: pointer;
 }
