@@ -612,3 +612,18 @@ PRICING
 .buynow__enterprise:hover{
     cursor: pointer;
 }
+.testim__nav{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 150px;
+}
+.testim__img{
+    width: 50%;
+}
+.testim__text{
+    width: 50%;
+    
+}
