@@ -615,7 +615,6 @@ PRICING
 .testim__nav{
     display: flex;
     margin: 0 auto;
-    border: 1px solid black;
     width: 100%;
     max-width: 1200px;
     margin-bottom: 150px;
@@ -628,5 +627,26 @@ PRICING
 }
 .testim__text{
     width: 50%;
-    
+    margin-left: 24px;
+}
+.testim__subtitle{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 24px;
+}
+.testim__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(0,0,100);
+    margin-bottom: 24px;
+}
+.testim__subtext{
+    color: rgb(124, 139, 161);
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.stars{
+    display: flex;
 }
