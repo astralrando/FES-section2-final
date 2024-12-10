@@ -644,10 +644,18 @@ PRICING
     color: rgb(124, 139, 161);
 }
 .star{
-    width: 15px;
-    height: 15px;
-    background-color: gold;
+    width: 20px;
+    height: 20px;
+    fill: gold;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 .stars{
     display: flex;
+}
+.user__exp{
+    color: rgb(0,0,100);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
 }
