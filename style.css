@@ -646,6 +646,7 @@ PRICING
 .star{
     width: 15px;
     height: 15px;
+    background-color: gold;
 }
 .stars{
     display: flex;
