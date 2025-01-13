@@ -648,7 +648,7 @@ PRICING
     height: 20px;
     fill: gold;
     margin-top: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 .stars{
     display: flex;
@@ -658,4 +658,313 @@ PRICING
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 24px;
+}
+.user__review{
+    display: flex;
+}
+.user__rev__img{
+    width: 100px;
+    height: 100px;
+    margin-top: 24px;
+}
+.user__image{
+    width: 100%;
+    border-radius: 50%;
+}
+.user__name{
+    color: rgb(0,0,100);
+    font-weight: 600;
+    font-size: 24px;
+}
+.user__title{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user__comptitle{
+    color: rgb(124, 139, 161);
+    margin-top: 8px;
+}
+.dev__usage{
+    margin: 0 auto;
+    border: 1px solid rgb(100, 21, 255);
+    width: 1200px;
+    height: 250px;
+    margin-bottom: 150px;
+    background-color: rgb(100, 21, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.dev__subtext{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+}
+.get__started__dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(245, 101, 101);
+    width: 125px;
+    height: 50px;
+    font-weight: 600;
+}
+.get__started__dev:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.contact__us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 125px;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.contact__us:hover{
+    color: rgb(100, 21, 255);
+    background-color: white;
+}
+.footer__container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(100, 21, 255);
+    background-color: rgb(100, 21, 255);
+    color: white;
+}
+.ftc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1200px;
+}
+.main{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.main__blog{
+    margin-bottom: 16px;
+}
+.main__blog:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main__faqs{
+    margin-bottom: 16px;
+}
+.main__faqs:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main__support{
+    margin-bottom: 16px;
+}
+.main__support:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main__about__us{
+    margin-bottom: 16px;
+}
+.main__about__us:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.product__log__in{
+    margin-bottom: 16px;
+}
+.product__log__in:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product__personal{
+    margin-bottom: 16px;
+}
+.product__personal:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product__business{
+    margin-bottom: 16px;
+}
+.product__business:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product__team:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.press{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.press__logos{
+    margin-bottom: 16px;
+}
+.press__logos:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.press__events{
+    margin-bottom: 16px;
+}
+.press__events:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.press__stories{
+    margin-bottom: 16px;
+}
+.press__stories:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.press__office{
+    margin-bottom: 16px;
+}
+.press__office:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.team{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.team__career{
+    margin-bottom: 16px;
+}
+.team__career:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.team__founders{
+    margin-bottom: 16px;
+}
+.team__founders:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.team__culture{
+    margin-bottom: 16px;
+}
+.team__culture:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.team__onboarding:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.legal{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.legal__gdpr{
+    margin-bottom: 16px;
+}
+.legal__gdpr:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.legal__privacy__policy{
+    margin-bottom: 16px;
+}
+.legal__privacy__policy:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.legal__tos{
+    margin-bottom: 16px;
+}.legal__tos:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.legal__disclaimer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer__end{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.footer__logo__cont{
+    display: flex;
+    width: 40px;
+}
+.footer__logo__text__cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__logo{
+    width: 100%;
+}
+.footer__logo__subtext{
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.socials{
+    display: flex;
+}
+.facebook{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+.facebook:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+.twitter:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.youtube{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+.youtube:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.fb__logo{
+    width: 20px;
+    height: 100%;
 }
