@@ -971,3 +971,26 @@ PRICING
     width: 20px;
     height: 100%;
 }
+.social-link {
+    background-color: white;  
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+.socials {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+.social-link svg {
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
