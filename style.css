@@ -59,6 +59,12 @@ NAVIGATION BAR
         display: block;
     }
 }
+@media(max-width: 1000px){
+    .principles__container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .about__link:hover{
     color: rgb(100, 21, 255);
     text-decoration: underline;
