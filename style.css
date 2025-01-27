@@ -151,9 +151,10 @@ TEMPLATES
     justify-content: space-between;
     margin-top: 30px;
     border: 1px solid rgb(226, 232, 240);
-    border-radius: 20px;
+    border-radius: 50px;
     width: 80%;
     font-size: 8px;
+    height: 64px;
     padding: 2px;
 }
 @media(max-width: 500px){
@@ -161,26 +162,39 @@ TEMPLATES
         flex-direction: column;
     }
 }
+@media(max-width: 1000px){
+    .temp__span,.temp__text,.plans,.buynow__personal,.buynow__business,.buynow__enterprise{
+        text-align: center;
+    }
+}
 .email:hover{
     border-color: rgb(100, 21, 255);
 }
 .email__box{
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 78%;
     height: 100%;
     padding-left: 10px;
+    color: rgb(124, 139, 161);
 }
 .getstarted{
+    display: flex;
     border: 1px solid rgb(100, 21, 255);
+    font-size: 16px;
+    border-radius: 50px;
     background-color: rgb(100, 21, 255);
     color: white;
     padding: 8px;
-    border-radius: 16px;
+    height: 80%;
+    width: 150px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
 }
 .getstarted:hover{
     cursor: pointer;
-    background-color: purple;
+    background-color: rgba(100, 21, 255, 0.9);
 }
 .company__list{
     width: 90%;
@@ -231,6 +245,63 @@ FEATURES
     .features__items, .features__items__second, .itema, .itemb, .itemc, .itemd,.iteme,.itemf{
         flex-direction: column;
         align-items: center;
+    }
+}
+@media(max-width: 1000px){
+    .learn__more{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+}
+@media(max-width: 1000px){
+    .pricing__item__getpricing,.user__rev__img{
+        margin: 0 auto;
+    }
+}
+@media(max-width: 1000px){
+    .footer__end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo__text__cont{
+        margin-bottom: 24px;
+    }
+    .service{
+        text-align: center;
+    }
+}
+@media(max-width: 1000px){
+    .stars{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 1000px){
+    .user__review{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 1000px){
+    .business__plan,.individual__plan,.testim__text{
+        text-align: center;
+    }
+}
+@media(max-width: 1000px){
+    .personal__container,.business__container{
+        margin-bottom: 24px;
+    }
+}
+@media(max-width: 1000px){
+    .values__header,.values__subheader,.values__text{
+        text-align: center;
+    }
+}
+@media(max-width: 1000px){
+    .principles__container{
+        margin: 0 auto;
+        text-align: center;
     }
 }
 @media(max-width: 1000px){
@@ -613,7 +684,6 @@ PRICING
 }
 .business__container{
     width: 30%;
-    border: 1px solid black;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
