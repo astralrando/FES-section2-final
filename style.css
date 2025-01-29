@@ -1167,3 +1167,9 @@ PRICING
     height: 20px;
     fill: black;
 }
+@media(max-width: 445px){
+    .ftc{
+        display: flex;
+        flex-direction: column;
+    }
+}
