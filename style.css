@@ -160,6 +160,17 @@ TEMPLATES
 @media(max-width: 500px){
     .email{
         flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        border: none;
+    }
+    .email__box{
+        border: 1px solid rgb(226, 232, 240);
+        height: 200%;
+    }
+    .getstarted{
+        width: 100%;
+        height: 100%;
     }
 }
 @media(max-width: 1000px){
@@ -173,7 +184,7 @@ TEMPLATES
 .email__box{
     border: none;
     border-radius: 50px;
-    width: 78%;
+    width: 100%;
     height: 100%;
     padding-left: 10px;
     color: rgb(124, 139, 161);
@@ -187,7 +198,7 @@ TEMPLATES
     color: white;
     padding: 8px;
     height: 80%;
-    width: 150px;
+    width: 100%;
     margin-right: 8px;
     align-items: center;
     justify-content: center;
@@ -449,10 +460,11 @@ STEPS TO GET STARTED
     margin-top: 200px;
 }
 .steps__img__container{
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
 }
 .get__started__img{
-    width: 700px;
+    width: 100%;
     margin-top: 50px;
 }
 .steps{
@@ -630,7 +642,8 @@ PRICING
     align-items: center;
     border: 1px solid rgb(124, 139, 161);
     border-radius: 16px;
-    width: 30%;
+    width: 100%;
+    max-width: 360px;
 }
 .personal{
     font-size: 24px;
@@ -683,7 +696,8 @@ PRICING
     cursor: pointer;
 }
 .business__container{
-    width: 30%;
+    width: 100%;
+    max-width: 360px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -744,7 +758,8 @@ PRICING
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 100%;
+    max-width: 360px;
     border: 1px solid black;
     border-radius: 16px;
 }
@@ -978,6 +993,9 @@ PRICING
     cursor: pointer;
     text-decoration: underline;
 }
+.product__team{
+    margin-bottom: 16px;
+}
 .product__team:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -1038,6 +1056,9 @@ PRICING
 .team__culture:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.team__onboarding{
+    margin-bottom: 16px;
 }
 .team__onboarding:hover{
     cursor: pointer;
@@ -1171,5 +1192,9 @@ PRICING
     .ftc{
         display: flex;
         flex-direction: column;
+        text-align: center;
+    }
+    .footer__container{
+    height: 100%;
     }
 }
