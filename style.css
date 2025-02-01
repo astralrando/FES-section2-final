@@ -947,6 +947,7 @@ PRICING
     margin-top: 100px;
     width: 100%;
     max-width: 1000px;
+    flex-wrap: wrap;
 }
 .main{
     font-weight: 600;
@@ -1273,15 +1274,19 @@ PRICING
         margin-right: 16px;
     }
 }
-@media(max-width: 500px){
+@media(max-width: 550px){
     .ftc{
         display: flex;
-        flex-direction: column;
         text-align: center;
         margin: 0 auto;
         margin-top: 56px;
+        justify-content: center;
     }
     .footer__container{
     height: 100%;
+    }
+    .main__container,.product__container,.press__container,.team__container,.legal__container{
+        margin-left: 12px;
+        margin-right: 12px;
     }
 }
