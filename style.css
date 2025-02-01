@@ -1200,11 +1200,72 @@ PRICING
     height: 20px;
     fill: black;
 }
-@media(max-width: 445px){
+@media(max-width: 1000px){
+    .itema,.itemb,.itemc,.itemd,.iteme,.itemf{
+        width: 70%;
+    }
+    .itemb,.itemc,.iteme,.itemf{
+        margin-top: 16px;
+    }
+    .numbering{
+        margin: 0 auto;
+    }
+    .values__container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .values__text{
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+    .professionalism__nav{
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .professionalism__container{
+        display: flex;
+        justify-content: center;
+    }
+    .affordable__subtext{
+        margin: 0 auto;
+    }
+    .testim__text{
+        margin: 0 auto;
+    }
+    .dev__usage{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .footer__container{
+        border-radius: 20px;
+    }
+    .ftc{
+        width: 90%;
+    }
+    .company__list{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 24px;
+    }
+    .btn__menu{
+        margin-right: 24px;
+    }
+    .steps__img__container{
+        width: 90%;
+    }
+}
+@media(max-width: 500px){
     .ftc{
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
+        margin-top: 56px;
     }
     .footer__container{
     height: 100%;
