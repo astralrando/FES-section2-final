@@ -1258,6 +1258,16 @@ PRICING
     .steps__img__container{
         width: 90%;
     }
+    .trusted__customers{
+        margin-left: 16px;
+    }
+    .company__cont{
+        width: 100%;
+    }
+    .company__list{
+        width: 90%;
+        margin-left: 16px;
+    }
 }
 @media(max-width: 500px){
     .ftc{
