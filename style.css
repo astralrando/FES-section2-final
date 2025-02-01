@@ -1268,6 +1268,10 @@ PRICING
         width: 90%;
         margin-left: 16px;
     }
+    .temp__text{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 @media(max-width: 500px){
     .ftc{
