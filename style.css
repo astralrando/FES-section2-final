@@ -1269,7 +1269,7 @@ PRICING
         width: 90%;
         margin-left: 16px;
     }
-    .temp__text{
+    .temp__text,.temp__span,.quality__subheader,.easy,.plans{
         margin-left: 16px;
         margin-right: 16px;
     }
