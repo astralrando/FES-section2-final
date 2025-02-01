@@ -166,10 +166,19 @@ TEMPLATES
         height: 150px;
         border: none;
     }
-    .email__box{
-        border: 1px solid black;
+    .email__cont{
+        margin-top: 16px;
+        border: 2px solid rgb(226, 232, 240);
         margin-bottom: 16px;
     }
+    .email__cont:hover{
+        border-color: rgb(100, 21, 255);
+    }
+}
+.email__cont{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }
 @media(max-width: 1000px){
     .temp__span,.temp__text,.plans,.buynow__personal,.buynow__business,.buynow__enterprise{
@@ -417,6 +426,11 @@ FEATURES
 }
 .quality__img__container{
     width: 50%;
+}
+@media(max-width: 1000px){
+    .quality__img__container{
+        width: 80%;
+    }
 }
 .quality__header{
     color: rgb(100, 21, 255);
